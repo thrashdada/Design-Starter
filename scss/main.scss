@@ -1,6 +1,9 @@
 @import 'variables';
 @import 'bootstrap-overrides';
 
+@import 'global/header/header.scss';
+@import 'global/footer/footer.scss';
+
 body {
   font-family: $font-secondary;
   font-weight: lighter;
@@ -14,5 +17,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  margin-top: 50px;
+	 min-height: calc(100vh - 130px);
 }

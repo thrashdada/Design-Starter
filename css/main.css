@@ -2,6 +2,20 @@
   border-radius: 0;
 }
 
+.navbar-default {
+  background: #FAFAFA;
+  border-color: #FAFAFA;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.footer {
+  height: 50px;
+  background: #FAFAFA;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: lighter;
@@ -15,5 +29,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  margin-top: 50px;
+  min-height: calc(100vh - 130px);
 }
