@@ -1,16 +1,15 @@
-
-$type-primary: 'Montserrat', sans-serif;
-$type-secondary: 'Source Sans Pro', sans-serif;
+@import 'variables';
+@import 'bootstrap-overrides';
 
 body {
-  font-family: $type-secondary;
+  font-family: $font-secondary;
   font-weight: lighter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $type-primary;
+  font-family: $font-primary;
   font-weight: bold;
 }
 
