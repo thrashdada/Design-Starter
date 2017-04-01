@@ -1,0 +1,19 @@
+
+$type-primary: 'Montserrat', sans-serif;
+$type-secondary: 'Source Sans Pro', sans-serif;
+
+body {
+  font-family: $type-secondary;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $type-primary;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 50px;
+}
